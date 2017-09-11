@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ailib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ailib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

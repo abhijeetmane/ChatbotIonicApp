@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        AngularJS Simple Chat Directive - Live Example
+    </title>
+    <link rel="stylesheet" href="../../.tmp/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="../app.css">
+</head>
+
+<body>
+
+    <div class="chat-container" ng-controller="UserController as UserView">
+        <simple-chat
+            messages="UserView.messages"
+            local-user="UserView.you"
+            to-user="UserView.guy"
+            send-function="UserView.sendMessage"
+            send-button-text="Send"
+            show-user-avatar="true"
+            show-composer="true"
+            live-mode="UserView.liveModeEnabled"
+            live-flag-function="UserView.liveFlagFunction"
+            composer-placeholder-text="Write your message here"
+        ></simple-chat>
+    </div>
+
+    <script src="../../bower_components/pubnub/web/dist/pubnub.js"></script>
+    <script src="../../bower_components/chance/chance.js"></script>
+    <script src="../../bower_components/angular/angular.js"></script>
+    <script src="../../bower_components/pubnub-angular/dist/pubnub-angular-3.1.1.js"></script>
+    <script src="../../bower_components/moment/moment.js"></script>
+    <script src="../../bower_components/moment/locale/fr.js"></script>
+    <script src="../../.tmp/scripts/angular-simple-chat.js"></script>
+    <script src="../../.tmp/scripts/templates.js"></script>
+    <script src="chat.js"></script>
+</body>
+
+</html>

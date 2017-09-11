@@ -1,0 +1,60 @@
+{
+  "name": "angular-simple-chat",
+  "version": "1.0.11",
+  "description": "AngularJS chat directive",
+  "main": "dist/angular-simple-chat.js",
+  "scripts": {
+    "test-local-terminal": "intern-runner config=tests/intern.local.terminal",
+    "test-local-browser": "intern-runner config=tests/intern.local.browser",
+    "test-travis": "intern-runner config=tests/intern.travis",
+    "coveralls": "cat lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "codecov": "./node_modules/.bin/codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vogloblinsky@github.com/vogloblinsky/angular-simple-chat.git"
+  },
+  "author": "vogloblinsky <vincent.ogloblinsky@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vogloblinsky/angular-simple-chat/issues"
+  },
+  "homepage": "https://github.com/vogloblinsky/angular-simple-chat#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "coveralls": "^2.11.2",
+    "del": "^2.2.0",
+    "eslint-plugin-angular": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-header": "^1.7.1",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-iife": "^0.2.4",
+    "gulp-inject": "^3.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.6.12",
+    "gulp-sass": "^2.2.0",
+    "gulp-scss-lint": "^0.3.9",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "intern": "^3.0.6",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "run-sequence": "^1.1.5",
+    "wrench": "^1.5.8"
+  },
+  "dependencies": {
+    "codecov": "^1.0.1"
+  }
+}

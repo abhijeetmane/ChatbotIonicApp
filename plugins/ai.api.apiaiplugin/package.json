@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ai.api.apiaiplugin",
+        "scope": null,
+        "escapedName": "ai.api.apiaiplugin",
+        "name": "ai.api.apiaiplugin",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/abhijeet/Downloads/ionic1Projects/myApp/node_modules"
+    ]
+  ],
+  "_from": "ai.api.apiaiplugin@latest",
+  "_id": "ai.api.apiaiplugin@1.4.3",
+  "_inCache": true,
+  "_location": "/ai.api.apiaiplugin",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "name": "sstepashka",
+    "email": "kuragin@speaktoit.com"
+  },
+  "_npmVersion": "2.11.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ai.api.apiaiplugin",
+    "scope": null,
+    "escapedName": "ai.api.apiaiplugin",
+    "name": "ai.api.apiaiplugin",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ai.api.apiaiplugin/-/ai.api.apiaiplugin-1.4.3.tgz",
+  "_shasum": "68f78a13bde7c20087b494658f02e5d7b069dc37",
+  "_shrinkwrap": null,
+  "_spec": "ai.api.apiaiplugin",
+  "_where": "/Users/abhijeet/Downloads/ionic1Projects/myApp/node_modules",
+  "cordova_name": "ApiAISDKPlugin",
+  "dependencies": {},
+  "description": "Plugin makes it easy to integrate your Cordova application with http://api.ai natural language processing service.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "68f78a13bde7c20087b494658f02e5d7b069dc37",
+    "tarball": "https://registry.npmjs.org/ai.api.apiaiplugin/-/ai.api.apiaiplugin-1.4.3.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "b60eadb1872ee08b392debd7bee18647acd48116",
+  "keywords": [
+    "language processing",
+    "voice recognition"
+  ],
+  "license": "Apache 2.0 License",
+  "maintainers": [
+    {
+      "name": "sstepashka",
+      "email": "kuragin@speaktoit.com"
+    }
+  ],
+  "name": "ai.api.apiaiplugin",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.4.3"
+}

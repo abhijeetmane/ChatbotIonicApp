@@ -1,0 +1,2 @@
+include ':settings.gradle'
+project(':settings.gradle').projectDir = new File('platforms/android/settings.gradle')

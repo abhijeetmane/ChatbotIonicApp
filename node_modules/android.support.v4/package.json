@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "android.support.v4",
+        "scope": null,
+        "escapedName": "android.support.v4",
+        "name": "android.support.v4",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/abhijeet/Downloads/ionic1Projects/myApp/node_modules"
+    ]
+  ],
+  "_from": "android.support.v4@latest",
+  "_id": "android.support.v4@21.0.1",
+  "_inCache": true,
+  "_location": "/android.support.v4",
+  "_nodeVersion": "6.10.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/android.support.v4-21.0.1.tgz_1491141151024_0.8755714222788811"
+  },
+  "_npmUser": {
+    "name": "vito90",
+    "email": "ziedvito@hotmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "android.support.v4",
+    "scope": null,
+    "escapedName": "android.support.v4",
+    "name": "android.support.v4",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/android.support.v4/-/android.support.v4-21.0.1.tgz",
+  "_shasum": "498e308e93b8322c974d5783b05c87bab28f1b3f",
+  "_shrinkwrap": null,
+  "_spec": "android.support.v4",
+  "_where": "/Users/abhijeet/Downloads/ionic1Projects/myApp/node_modules",
+  "author": {
+    "name": "vito90",
+    "email": "ziedvito@hotmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Google Inc."
+    }
+  ],
+  "dependencies": {},
+  "description": "This is a Cordova plugin that adds the Android Support v4 client library.\r It is meant to be depended on by other plugins.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "498e308e93b8322c974d5783b05c87bab28f1b3f",
+    "tarball": "https://registry.npmjs.org/android.support.v4/-/android.support.v4-21.0.1.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "vito90",
+      "email": "ziedvito@hotmail.com"
+    }
+  ],
+  "name": "android.support.v4",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "21.0.1"
+}

@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-tts",
+        "scope": null,
+        "escapedName": "cordova-plugin-tts",
+        "name": "cordova-plugin-tts",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/abhijeet/Downloads/ionic1Projects/myApp/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-tts@latest",
+  "_id": "cordova-plugin-tts@0.2.3",
+  "_inCache": true,
+  "_location": "/cordova-plugin-tts",
+  "_nodeVersion": "4.0.0",
+  "_npmUser": {
+    "name": "vilic",
+    "email": "i@vilic.info"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-tts",
+    "scope": null,
+    "escapedName": "cordova-plugin-tts",
+    "name": "cordova-plugin-tts",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-tts/-/cordova-plugin-tts-0.2.3.tgz",
+  "_shasum": "c5743f6c6f251e8cb4bc45dd33d41a9a22997287",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-tts",
+  "_where": "/Users/abhijeet/Downloads/ionic1Projects/myApp/node_modules",
+  "author": {
+    "name": "VILIC VANE"
+  },
+  "bugs": {
+    "url": "https://github.com/vilic/cordova-plugin-tts/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-tts",
+    "platforms": [
+      "ios",
+      "wp8",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Text-to-Speech Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "c5743f6c6f251e8cb4bc45dd33d41a9a22997287",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-tts/-/cordova-plugin-tts-0.2.3.tgz"
+  },
+  "gitHead": "193b7d40d7615ad641dcf5298e1ea729d01b8674",
+  "homepage": "https://github.com/vilic/cordova-plugin-tts#readme",
+  "keywords": [
+    "cordova",
+    "tts",
+    "text-to-speech",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "vilic",
+      "email": "i@vilic.info"
+    }
+  ],
+  "name": "cordova-plugin-tts",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilic/cordova-plugin-tts.git"
+  },
+  "scripts": {},
+  "version": "0.2.3"
+}

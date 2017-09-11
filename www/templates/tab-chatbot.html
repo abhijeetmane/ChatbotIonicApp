@@ -1,0 +1,22 @@
+<div style="top:50px;">
+
+<h1>Welcome to our chatbot</h1>
+    <div ng-if="showFaq">
+        <span>Hello {{botname}}, I provide below features</span>
+        <ul>
+            <li ng-repeat="feat in features">{{feat}}</li>
+        </ul>
+    </div>
+{{showHistory}}
+    <div ng-if="showHistory">
+        <span>Hello {{uName}}, Here are your details</span>
+        <span ng-bind="portfolioDetail"></span>
+        <img src="{{richText}}" />
+    </div>
+
+<div>
+<input type="text" ng-model="chatmsg" placeholder="type here" style="border: 1px solid black">
+<button type="submit" ng-click="sendMsg();">send</button>
+</div>
+
+</div>

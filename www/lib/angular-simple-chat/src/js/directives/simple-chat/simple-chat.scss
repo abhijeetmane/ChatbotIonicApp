@@ -1,0 +1,26 @@
+simple-chat {
+    border: 1px solid $simple-chat-main-border-color;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: $simple-chat-font-size-standard;
+    font-family: "Helvetica Neue",Roboto,sans-serif;
+}
+
+.message-wrapper {
+    position: relative;
+}
+
+.message-wrapper:last-child {
+    margin-bottom: 10px;
+}
+
+.simple-chat-container {
+    overflow-y: scroll;
+    height: calc(100% - #{$simple-chat-composer-height});
+
+    &.full-height {
+        height: 100%;
+    }
+}
